@@ -36,19 +36,18 @@ world = engine.world;
   block5 = new Box(420,290,30,40)
   block6 = new Box(450,290,30,40)
   block7 = new Box(480,290,30,40)
-  fill("turquoise");
+  
  
   block8 = new Box(330,250,30,40)
   block9 = new Box(360,250,30,40)
   block10 = new Box(390,250,30,40)
   block11 = new Box(420,250,30,40)
   block12 = new Box(450,250,30,40)
-  fill("yellow");
-
+  
   block13 = new Box(360,210,30,40)
   block14 = new Box(390,210,30,40)
   block15 = new Box(420,210,30,40)
-  fill("pink");
+  
 
   block16 = new Box(390,170,30,40)
 
@@ -93,6 +92,7 @@ function draw() {
   
   background(0);  
 
+  fill("turquoise");
   block1.display()
   block2.display()
   block3.display()
@@ -101,30 +101,35 @@ function draw() {
   block6.display()
   block7.display()
 
+  fill("yellow");
   block8.display()
   block9.display()
   block10.display()
   block11.display()
   block12.display()
 
+  fill("pink");
   block13.display()
   block14.display()
   block15.display()
 
+  fill("red")
   block16.display()
 
 
-
+  fill("green")
   block17.display()
   block18.display()
   block19.display()
   block20.display()
   block21.display()
 
+  fill("lightblue")
   block22.display()
   block23.display()
   block24.display()
 
+  fill("purple")
   block25.display()
 
   
